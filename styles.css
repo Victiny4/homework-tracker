@@ -156,6 +156,6 @@ header h1 {
 
 /* ── credit ─────────────────────────────────────────────────── */
 #credit {
-    position:fixed; right:12px; bottom:10px; font-size:11px; color:#c2c1ba;
+    position:fixed; right:12px; bottom:10px; font-size:11px; color:#9b998f;
     pointer-events:none; user-select:none;
 }
