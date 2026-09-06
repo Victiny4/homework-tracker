@@ -2,7 +2,7 @@ name: Remove expired homework
 
 on:
   schedule:
-    - cron: '/5 * * * *'   # runs once every 5 min
+    - cron: '*/5 * * * *'   # runs every 5 minutes
   workflow_dispatch: {}    # also lets you click "Run workflow" manually on GitHub
 
 jobs:
