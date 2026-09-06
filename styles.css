@@ -153,3 +153,9 @@ header h1 {
 @media (max-width:600px) {
     #stats { grid-template-columns:1fr; }
 }
+
+/* ── credit ─────────────────────────────────────────────────── */
+#credit {
+    position:fixed; right:12px; bottom:10px; font-size:11px; color:#c2c1ba;
+    pointer-events:none; user-select:none;
+}
